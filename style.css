@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "redhat", sans-serif;
+}
+
+.logo{
+    margin: auto;
+    display: block;
+}
+.homepage{
+    border: 1px solid #000;
+    border-radius: 60px;
+    width: 80px;
+    height: 21px;
+}
+.homepage a{
+    box-shadow: rgb(0, 0, 0) 3px 3px 0px 0px;
+}
+.container-one{
+    display: flex;
+}
+.texts-one{
+    justify-items: center;
+}
+.texts-one h1{
+    font-weight: 900px;
+    font-size: 64px;
+    text-align: center;
+}
+.texts-one h3{
+    color: rgb(134, 134, 156);
+    font-weight: 500;
+    font-size: 18px;
+}
+button{
+    border: none;
+    border-radius: 30px;
+    padding: 16px 30px;
+}
+.buttons{
+    font-family: 18px;
+    font-weight: 900;
+    gap: 40px;
+}
+.buttons :first-child span{
+    color: rgb(144, 228, 249);
+}
+.buttons :first-child{
+    background-color: rgb(77, 145, 168);
+    color: #fff;
+}
+.buttons button{
+    background-color: rgb(132, 94, 176);
+    color: #fff;
+}
+.seprator{
+    font-weight: 900;
+    font-size: 18px;
+    margin: auto;
+}
+.seprator :first-child{
+    width: 1px;
+    height: 85px;
+    background-color: rgba(135, 135, 157, 0.5);
+    margin: auto;
+}
+.seprator :last-child{
+    display: flex;
+    width: 56px;
+    height: 56px;
+    border: 1px solid rgba(135, 135, 157, 0.5);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.container-images{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 20px;
+}
+.container-images img{
+    width: 260px;
+    height: 247px;
+    border-radius: 8px;
+}
+.container-texts{
+    display: block;
+    text-align: center;
+}
+.container-texts :first-child{
+    color: rgb(77, 145, 168);
+    font-weight: 900;
+    font-size: 16px;
+}
+.container-texts h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.container-texts :last-child{
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(134, 134, 156);
+}
+footer{
+    background-image: linear-gradient(hsl(195, 37%, 48%, 0.8),
+            hsl(195, 37%, 48%, 0.8)),
+        url(./assets/images/image-footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 428px;
+    position: relative;
+    margin-top: 11rem;
+    padding-top: 5.75rem;
+    padding-inline: 1.5rem;
+}
+
+.content-footer{
+    text-align: center;
+}
+.content-footer h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.content-footer h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+.content-footer button{
+    font-size: 16px;
+}
+footer button{
+    background-color: rgb(132, 94, 176);
+    color: #fff;
+}
+footer span{
+    color:rgb(217, 184, 255);
+}
+
+@font-face {
+    font-family: 'redhat';
+    src: url('assets/fonts/RedHatDisplay-VariableFont_wght.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
