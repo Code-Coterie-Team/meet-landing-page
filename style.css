@@ -1,10 +1,20 @@
+@font-face {
+    font-family: 'redhat';
+    src: url('assets/fonts/RedHatDisplay-VariableFont_wght.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'redhat-black';
+    src: url('assets/fonts/RedHatDisplay-Black.ttf') format('woff');
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "redhat", sans-serif;
 }
-
+body{
+font-family: "redhat", sans-serif;
+}
 .logo{
     margin: auto;
     display: block;
@@ -170,15 +180,13 @@ footer{
     background-position: center;
     width: 98.99vw;
     height: 308px;
-    padding-top: 11rem;
-    /* position: absolute; */
 }
 .content-footer{
     position: relative;
     text-align: center;
     color: #fff;
     height: 182px;
-    bottom: 90px;
+    top: 85px;
 }
 .content-footer h2{
     font-size: 40px;
@@ -204,11 +212,3 @@ footer span{
     color:rgb(217, 184, 255);
 }
 
-@font-face {
-    font-family: 'redhat';
-    src: url('assets/fonts/RedHatDisplay-VariableFont_wght.ttf') format('woff');
-}
-@font-face {
-    font-family: 'redhat-black';
-    src: url('assets/fonts/RedHatDisplay-Black.ttf') format('woff');
-}
